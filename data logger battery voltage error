@@ -1,0 +1,15 @@
+25 February 2021
+ 
+For a week I was facing this error for the sensor we mounted on our titan. The potentionmeter that was mounted to read the angle for the steering wheel was not logging data.
+For a week I struggled alot , then one night I ripped off all the circuit .
+Resoldered it to check possible short circuits.
+Then I found finally that arduino was logging data when connected to the usb for of my laptop , but when I connected the arduino to the battery it simply did't created any file or logged data.
+
+  KEY OBSERVATIONS :
+    I OBSERVED THAT THE GREEN LED AND THE LED AT PIN 13 GLOWED BRIGHT WHEN CONNECTED TO USB PORT.
+    WHEREAS IF CONNECTED TO THE OLD 9V BATTERY WHICH IS USED OF THE WEEK , THE BOTH THE LED'S GLOW DIMMER, THIS HELPED ME TO RECOGNISE THE ERROR IN THE BATTERY VOLTAGE.
+    
+    SO I QUICKLY CHANGED THE BATTERY AND TTTTAAAAADDDDAAAA!!!!!!!
+    THE ARDUINO STARTED LOGGING THE DATA AGAIN!!!!!
+    
+    THIS IS VERY IMPORTANT FROM THE POINT OF VIEW OF THE IMPLEMENTATION OF ARDUINO  IF MOUNTED ON THE VEHICLE
