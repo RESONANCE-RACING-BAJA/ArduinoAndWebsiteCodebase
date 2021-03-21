@@ -1,2 +1,2 @@
-# Resonance-Racing-
-Website for Resonsnce Racing ,Pune
+# Resonance-Racing
+The cloud based code base for resonance racing
