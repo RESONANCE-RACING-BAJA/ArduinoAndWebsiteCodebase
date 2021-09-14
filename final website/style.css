@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  margin-top: 12%;
+  font-weight: bold;
+  color: azure;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 6rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  top: -10px;
+}
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.nav-item {
+  text-align: center;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+/* crasoule */
+#carouselExampleControls {
+  padding-top: 10%;
+}
+#content {
+  font-family: "Montserrat", sans-serif;
+  padding: 5%;
+  color: rgb(58, 58, 58);
+}
+
+.content-heading {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.row {
+  text-align: center;
+}
+.content-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#team {
+  font-family: "Montserrat", sans-serif;
+  padding: 5%;
+  color: rgb(58, 58, 58);
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#learn-more {
+  background-color: red;
+  color: white;
+  border: 0px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: left;
+  font-size: 2vw;
+  margin: 10px;
+  width: auto;
+}
+
+#cars-image-container {
+  overflow: auto;
+  height: 500px;
+  padding: 5%;
+  overflow: hidden;
+}
+
+.car-image {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin: auto;
+  padding: 5px;
+}
+
+#sponsors {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: rgb(58, 58, 58);
+  margin: auto;
+}
+.sponsors {
+  width: 100%;
+  height: 600px;
+  overflow: scroll;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sponsor-image {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+#copyright {
+  margin-top: 30px;
+}
+.iconify {
+  width: auto;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.contact {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* animations */
+
+#heading-1 {
+  margin-top: 20%;
+  opacity: 0;
+  margin-left: -60%;
+}
+#heading-2 {
+  opacity: 0;
+  margin-left: -20%;
+}
+#content-1 {
+  margin-top: 5%;
+  opacity: 0;
+  margin-left: 60%;
+}
+#content-2 {
+  margin-top: 5%;
+  opacity: 0;
+  margin-left: 20%;
+}
+
+#content-image {
+  opacity: 0;
+}
+
+#content-image-2 {
+  opacity: 0;
+}
+
+#team-image {
+  opacity: 0;
+}
