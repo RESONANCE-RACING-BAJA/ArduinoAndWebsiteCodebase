@@ -1,0 +1,6 @@
+vcc <-> 5V
+GND <-> GND
+MISO <-> PIN 12
+MOSI <-> PIN 11
+SCK <-> PIN 13
+CS <-> PIN 10
